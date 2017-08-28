@@ -1,0 +1,80 @@
+header{
+    text-align: right;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+body{
+    color:#1b2af4;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+nav a{
+    margin-left: 10px;
+    font-weight: normal;
+    color:#5f5f5f;
+    text-decoration: none;
+}
+a{
+    color:#8b00e0;
+    font-weight: bold;
+}
+a:visited{
+    color:#42006a;
+}
+h1{
+    font-size: 90px;
+    color:#2da562;
+    margin:0;
+    line-height:1;
+    padding:0;
+}
+#top_container{
+    margin:20px 0 50px 50px;
+   
+}
+#info_container{
+    font-size:22px;
+}
+.green{
+    color:#2da562;
+    font-size: 36px;
+    font-weight: bold;
+}
+#rules_container{
+    border:1px solid #000;
+    border-bottom: 0;
+    padding: 30px 0 30px ;
+    margin:0 50px;
+    line-height: 1.6;
+    
+}
+#wotd_container{
+    border-top: 1px solid #000 ;
+    border-bottom: 1px solid #000;
+    padding: 30px 0 30px 0 ;
+    margin:0 50px;
+    font-size: 26px;
+    text-align: center;
+    line-height: 1.6;
+}
+#site_list{
+    margin: 30px 0 20px 50px;
+}
+
+footer{
+    text-align: center
+}
+#about h3{
+    text-align: center;
+    color:#2da562;
+    font-size: 30px;
+    line-height: 40px;  
+}
+#content{
+    width:80%;
+    max-width: 750px;
+    margin: auto;
+}
+
+
