@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bouncy Ball</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/bouncyball.css">
+    <script type ="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body id = "bouncy-ball">
+    <div id="main-container">
+        <div id="wrapper-content">
+           <div id = "left-container">
+            <div id="site-title">
+                <h1>Try and grab the bouncy ball</h1>
+                <h2>Click it to advance to the next level</h2>
+            </div>
+        </div>
+        
+        <div id="right-container">
+            <div id="message-container">
+                <h1 class="message" id = "congrats">Good Job!</h1>
+                <h3 class="message" id = "next-level">Next Level: <span id="level">1</span></h3>
+                <a href="index.html" id="replay">Replay Level?</a>
+            </div>
+            
+            <div id="ball-container">
+                <div id="ball"></div>
+            </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src ="assets/js/bouncyBall.js"></script>
+</body>
+</html>
